@@ -1,0 +1,943 @@
+﻿python : Using CPU. 
+Note: This module is 
+much faster with a GPU.
+At line:1 char:145
++ ... 
+able("Path","User"); 
+python smoke_test.py > 
+test_out.txt 2>&1; 
+Get-Co ...
++                      
+    ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Using CPU. No   
+ te...ter with a GP    
+U.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Downloading detection 
+model, please wait. 
+This may take several 
+minutes depending upon 
+your network 
+connection.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Using CPU. Note: This 
+module is much faster 
+with a GPU.
+Downloading detection 
+model, please wait. 
+This may take several 
+minutes depending upon 
+your network 
+connection.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Using CPU. Note: This 
+module is much faster 
+with a GPU.
+Downloading detection 
+model, please wait. 
+This may take several 
+minutes depending upon 
+your network 
+connection.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Using CPU. Note: This 
+module is much faster 
+with a GPU.
+Downloading detection 
+model, please wait. 
+This may take several 
+minutes depending upon 
+your network 
+connection.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+OCR extraction failed: 
+tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+275, in run_tesseract
+    proc = subprocess.P
+open(cmd_args, 
+**subprocess_args())
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1026, in __init__
+    self._execute_child
+(args, executable, 
+preexec_fn, close_fds,
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sub
+process.py", line 
+1538, in _execute_child
+    hp, ht, pid, tid = 
+_winapi.CreateProcess(e
+xecutable, args,
+                       
+^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
+FileNotFoundError: 
+[WinError 2] The 
+system cannot find the 
+file specified
+
+During handling of the 
+above exception, 
+another exception 
+occurred:
+
+Traceback (most recent 
+call last):
+  File "C:\Users\acer\D
+ownloads\Math-Tutor-mai
+n\Math-Tutor-main\ai_ma
+th_tutor\vision\ocr.py"
+, line 59, in 
+extract_text
+    txt = pytesseract.i
+mage_to_string(pil_imag
+e)
+          ^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+486, in image_to_string
+    return {
+           ^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+489, in <lambda>
+    Output.STRING: 
+lambda: run_and_get_out
+put(*args),
+                       
+    ^^^^^^^^^^^^^^^^^^^
+^^^^^^
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+352, in 
+run_and_get_output
+    
+run_tesseract(**kwargs)
+  File "C:\Users\acer\A
+ppData\Local\Programs\P
+ython\Python312\Lib\sit
+e-packages\pytesseract\
+pytesseract.py", line 
+280, in run_tesseract
+    raise TesseractNotF
+oundError()
+pytesseract.pytesseract
+.TesseractNotFoundError
+: tesseract is not 
+installed or it's not 
+in your PATH. See 
+README file for more 
+information.
+
+---
+Image: C:\Users\acer\Downloads\Math-Tutor-main\Math-Tutor-main\ai_math_tutor\samples\eq_1.png
+Preprocessing done
+OCR raw: 
+Extracted math: 
+LaTeX/expr: 
+Parse failed: Empty expression
+
+---
+Image: C:\Users\acer\Downloads\Math-Tutor-main\Math-Tutor-main\ai_math_tutor\samples\eq_2.png
+Preprocessing done
+OCR raw: 
+Extracted math: 
+LaTeX/expr: 
+Parse failed: Empty expression
+
+---
+Image: C:\Users\acer\Downloads\Math-Tutor-main\Math-Tutor-main\ai_math_tutor\samples\eq_3.png
+Preprocessing done
+OCR raw: 
+Extracted math: 
+LaTeX/expr: 
+Parse failed: Empty expression
+
+---
+Image: C:\Users\acer\Downloads\Math-Tutor-main\Math-Tutor-main\ai_math_tutor\samples\eq_4.png
+Preprocessing done
+OCR raw: 
+Extracted math: 
+LaTeX/expr: 
+Parse failed: Empty expression
